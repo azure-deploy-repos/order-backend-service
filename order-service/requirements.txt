@@ -1,0 +1,18 @@
+# Core Framework & Server
+fastapi[standard]
+uvicorn
+
+# Data Validation
+pydantic~=2.10.6
+
+# Database
+sqlalchemy[asyncio]
+asyncpg
+python-dotenv
+
+# Password Hashing
+bcrypt==3.2.2
+passlib==1.7.4
+
+# File Upload
+python-multipart
